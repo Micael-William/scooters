@@ -10,7 +10,7 @@
 - [x] Aba para trocar senha;
 - [x] Aba para o anunciante cadastrar anúncio e possível parte para editar e excluir o anúncio;
 - [x] Aba de favoritos o anunciante queira favoritar um veículo já vai aparecer no perfil dele e opção de desvaforitar;
-- [x] Aba de mensagens o cliente gostar de um veículo ele vai preencher os dados dele e automaticamente vai aparecer para pessoa que publicou aquele anúncio;
+- [x] Aba de mensagens, o cliente que gostar de um veículo ele vai preencher os dados dele e automaticamente vai aparecer para pessoa que publicou aquele anúncio;
 - [x] Aba de Logout;  
 
 
@@ -19,6 +19,7 @@
 
 ![print-projeto0](https://github.com/Micael-William/scooters/assets/90733510/3d2bcce2-998a-45e5-929c-40364a9f34b6)
 ![print-projeto3](https://github.com/Micael-William/scooters/assets/90733510/2e9d28ab-f52c-488d-ad87-d8a4a16f9329)
+![print-projeto4png](https://github.com/Micael-William/scooters/assets/90733510/e496da47-e153-49da-8293-4ba6b8701f91)
 
 
 ## 🛠 Tecnologias
