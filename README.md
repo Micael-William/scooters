@@ -1,7 +1,8 @@
 
 
-<h1>💻 Sobre o projeto</h1>
+<h1>💻 Projeto Scooters</h1>
 
+<p>Projeto realizado como Freelancer </p>
 
 ## ⚙️ Funcionalidades
 
