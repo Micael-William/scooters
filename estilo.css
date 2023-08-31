@@ -1,0 +1,1457 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+
+
+* {
+
+  margin: 0;
+
+  padding: 0;
+
+  border: 0;
+
+  box-sizing: border-box;
+
+  font-family: "Poppins", sans-serif;
+
+}
+
+.favoritos {
+  width: 200px;
+  height: 200px;
+}
+
+.favorito-icone {
+  color: red;
+}
+
+
+.nao-favoritado-icone {
+  color: #000;
+}
+
+
+
+:root {
+
+  --yellow: #ffc82a;
+
+  --gray: #373435;
+
+  --gray-2: #4b4b4d;
+
+  --gray-3: #727376;
+
+}
+
+
+
+/*@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");*/
+
+
+
+body {
+
+  background-color: #f2f3f3;
+
+}
+
+.cor1	      {background-color: #c0c0c0;color:#000;} 
+
+.cor2	      {background-color: #d7d7d7;color:#000;}
+
+.cor3	      {background-color: #e5e5e5;color:#000;}
+
+.cor4	      {background-color: #efefef;color:#000;}
+
+
+
+.txt-11 {font-size: 11px;}
+
+.txt-12 {font-size: 12px;}
+
+.txt-13 {font-size: 13px;}
+
+.txt-14 {font-size: 14px;}
+
+.txt-15 {font-size: 15px;}
+
+.txt-16 {font-size: 16px;}
+
+.txt-17 {font-size: 17px;}
+
+.txt-18 {font-size: 18px;}
+
+.txt-19 {font-size: 19px;}
+
+.txt-20 {font-size: 20px;}
+
+.txt-21 {font-size: 21px;}
+
+.txt-22 {font-size: 22px;}
+
+.txt-23 {font-size: 23px;}
+
+.txt-24 {font-size: 24px;}
+
+.txt-25 {font-size: 25px;}
+
+.txt-26 {font-size: 26px;}
+
+.txt-27 {font-size: 27px;}
+
+.txt-28 {font-size: 28px;}
+
+.txt-29 {font-size: 29px;}
+
+.txt-30 {font-size: 30px;}
+
+.txt-31 {font-size: 31px;}
+
+.txt-32 {font-size: 32px;}
+
+.txt-33 {font-size: 33px;}
+
+.txt-34 {font-size: 34px;}
+
+.txt-35 {font-size: 35px;}
+
+.txt-36 {font-size: 36px;}
+
+.txt-37 {font-size: 37px;}
+
+.txt-38 {font-size: 38px;}
+
+.txt-39 {font-size: 39px;}
+
+.txt-40 {font-size: 40px;}
+
+.col-20 {width: 20%;float: left;margin: 0;padding: 0;position: relative;min-height: 1px;padding-right: 10px;padding-left: 10px;}
+
+
+
+.collapsing {
+
+  transition: none !important;
+
+}
+
+.center {margin-left:auto;margin-right:auto;}
+
+.cont_site {background:#fff;width:auto;height:auto;}
+
+.uppercase {text-transform: uppercase !important;}
+
+.clear{	clear: both;overflow: hidden;height: 0px;}
+
+.img100 {max-width:100%;}
+
+
+
+.esconde{display: none;}
+
+
+
+.borda_cinza {
+
+  border: 1px;
+
+  border-style: solid;
+
+  border-color: gray;
+
+}
+
+
+
+.claro {
+
+  color: gray;
+
+}
+
+
+
+.escuro {
+
+  color: rgb(71, 71, 71);
+
+}
+
+
+
+.opcionais {
+
+  font-size: 15px;
+
+  color: rgb(71, 71, 71);
+
+}
+
+
+
+
+
+
+
+.bg {
+
+  background-color: #eaeaea;
+
+  margin-bottom: 1px;
+
+}
+
+
+
+.conteudo {
+
+    /*margin-top: 100px;*/
+
+    background-color:#fff;
+
+}
+
+
+
+.topico{
+
+	width: 100%;
+
+    /*opacity:0;*/
+
+    /*background: #e0e0e0;*/
+
+	color:#000000;
+
+    font-size:25px;
+
+    font-weight: 400;
+
+}
+
+
+
+.valor {
+
+  background-color: #ffc82a;
+
+  padding: 2px 10px;
+
+  color: rgb(0, 0, 0);
+
+  font-size: 35px;
+
+  font-weight: 400;
+
+  min-height:60px;
+
+}
+
+
+
+
+
+.owl-prev,
+
+.owl-next {
+
+  border: 1px solid var(--gray) !important;
+
+  border-radius: 50% !important;
+
+  width: 40px;
+
+  height: 40px;
+
+  background-color: #fff !important;
+
+  color: #000 !important;
+
+}
+
+
+
+.SearchByBrandCarousel .owl-next {
+
+  position: absolute;
+
+  right: 0;
+
+  top: 50%;
+
+  transform: translateY(-50%);
+
+  width: 40px;
+
+  height: 40px;
+
+}
+
+
+
+.SearchByBrandCarousel .owl-prev {
+
+  position: absolute;
+
+  left: 0;
+
+  top: 50%;
+
+  transform: translateY(-50%);
+
+  width: 40px;
+
+  height: 40px;
+
+}
+
+
+
+.owl-prev span,
+
+.owl-next span {
+
+  font-size: 40px;
+
+  line-height: 30px;
+
+  display: none;
+
+}
+
+
+
+.owl-prev {
+
+  background-image: url("img/arrow-to-left.png") !important;
+
+  background-repeat: no-repeat !important;
+
+  background-position: center center !important;
+
+}
+
+
+
+.owl-next {
+
+  background-image: url("img/arrow-to-right.png") !important;
+
+  background-repeat: no-repeat !important;
+
+  background-position: center center !important;
+
+}
+
+
+
+.MainTitle {
+
+  text-align: center;
+
+  color: var(--gray);
+
+  margin-top: 50px;
+
+}
+
+
+
+#Header {
+
+  background-color: #fff;
+
+}
+
+
+
+#Header .BarIcons {
+
+  background-color: var(--yellow);
+
+}
+
+
+
+#Header .BarIcons_field {
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  gap: 10px;
+
+}
+
+
+
+#Header .BarIcons .bi {
+
+  font-size: 30px;
+
+}
+
+
+
+#Header .BarIconsBox {
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: flex-end;
+
+  height: 60px;
+
+  gap: 20px;
+
+}
+
+
+
+#Header .BarIcons_field-text {
+
+  color: var(--gray);
+
+  text-decoration: none;
+
+  font-weight: bold;
+
+  text-align: center;
+
+}
+
+
+
+#Header .MainHeader {
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+  background-color: #fff;
+
+}
+
+
+
+#Header .MainHeaderLogo img {
+
+  height: 100px;
+
+}
+
+
+
+#Header .MainHeaderNav {
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  gap: 20px;
+
+  list-style: none;
+
+}
+
+
+
+#Header .MainHeaderNav_item {
+
+  list-style: none;
+
+}
+
+
+
+#Header .MainHeaderNav_item a {
+
+  color: #000;
+
+  text-decoration: none;
+
+}
+
+
+
+#Header .MainHeaderNav_menu {
+
+  background: transparent;
+
+  width: 50px;
+
+}
+
+
+
+#Header .MainHeaderNav .bi {
+
+  font-size: 40px;
+
+}
+
+
+
+#Header .offcanvas-header {
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: flex-end;
+
+}
+
+
+
+.MainHeaderNavMobile {
+
+  list-style: none;
+
+  text-align: center;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  gap: 20px;
+
+  flex-direction: column;
+
+  margin-top: 100px;
+
+}
+
+
+
+#Header .MainHeaderNavMobile_item a {
+
+  color: #000;
+
+  text-decoration: none;
+
+}
+
+
+
+#Home .HomeImage {
+
+  object-fit: cover;
+
+  height: calc(100vh - 160px);
+
+  width: 100%;
+
+}
+
+
+
+#HomeBoxSearch {
+
+  max-width: 1600px;
+
+  margin: -50px auto;
+
+}
+
+
+
+#HomeBoxSearch .accordion {
+
+  background-color: var(--yellow);
+
+  z-index: 1000;
+
+  position: relative;
+
+  --bs-accordion-btn-focus-box-shadow: none !important;
+
+  border-radius: 40px;
+
+}
+
+
+
+#HomeBoxSearch .AccordionHeaders {
+
+  display: flex;
+
+  align-items: center;
+
+  /*justify-content: space-between;*/
+
+  gap: 10px;
+
+}
+
+
+
+#HomeBoxSearch .accordion-button {
+
+  background-color: transparent !important;
+
+  font-weight: bold;
+
+}
+
+
+
+#HomeBoxSearch .accordion-button::after {
+
+  display: none !important;
+
+}
+
+
+
+#HomeBoxSearch .accordion-button:not(.collapsed) {
+
+  color: #fff !important;
+
+  border-bottom: 5px solid var(--gray);
+
+  box-shadow: none !important;
+
+}
+
+
+
+#HomeBoxSearch .accordion-item {
+
+  background-color: transparent !important;
+
+  border: 0 !important;
+
+}
+
+
+
+#HomeBoxSearch .HomeBoxSearchForm {
+
+  width: 100%;
+
+  padding: 20px 0;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  gap: 30px;
+
+}
+
+
+
+#HomeBoxSearch .HomeBoxSearchForm_input {
+
+  height: 70px;
+
+  padding-left: 20px;
+
+  border-radius: 20px;
+
+  border: 1px solid var(--gray);
+
+}
+
+
+
+#HomeBoxSearch .HomeBoxSearchForm_btn {
+
+  height: 70px;
+
+  background-color: var(--gray);
+
+  color: #fff;
+
+  font-size: 24px;
+
+  border-radius: 20px;
+
+  border: 1px solid #fff;
+
+}
+
+
+
+#SearchByBrand .SearchByBrandCarousel {
+
+  height: 100%;
+
+  margin-bottom: 100px;
+
+  margin-top: 50px;
+
+  padding: 0 100px;
+
+}
+
+
+
+#SearchByBrand .owl-theme .owl-dots,
+
+#BannerPromo .owl-theme .owl-dots {
+
+  display: none;
+
+}
+
+
+
+#SearchByBrand .SearchByBrandCarousel .item {
+
+  width: 150px;
+
+  height: 120px;
+
+  margin: 0 auto;
+
+}
+
+#SearchByBrand .SearchByBrandCarousel .item img {
+
+  width: 100%;
+
+  height: 100%;
+
+}
+
+
+
+#Highlights .HighlightsCards {
+
+  display: grid;
+
+  grid-template-columns: repeat(auto-fit, minmax(100px, 300px));
+
+  justify-content: center;
+
+  gap: 30px;
+
+}
+
+
+
+#Highlights .Card {
+
+  width: 100%;
+
+  margin-top: 50px;
+
+  background-color: #fff;
+
+}
+
+
+
+#Highlights .Card img {
+
+  width: 100%;
+
+}
+
+
+
+#Highlights .Card_title {
+
+  color: var(--gray);
+
+  background-color: var(--yellow);
+
+  padding: 15px 0 15px 15px;
+
+}
+
+
+
+#Highlights .Card_desc-box {
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+  padding: 15px 0 5px;
+
+}
+
+
+
+#Highlights .Card_desc-text {
+
+  color: var(--gray-3);
+
+  padding: 0 15px;
+
+  margin-bottom: 0;
+
+}
+
+
+
+#Highlights .Card_value {
+
+  color: var(--gray);
+
+  padding: 15px 0 15px 15px;
+
+}
+
+
+
+
+
+.Card a:hover {
+
+  color:red;
+
+  text-decoration: none;
+
+}
+
+
+
+.Card a {
+
+  text-decoration: none;
+
+}
+
+
+
+#Footer {
+
+  background-color: #2d2b37;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  margin-bottom: 0;
+
+}
+
+
+
+#Footer > div {
+
+  display: grid;
+
+  grid-template-columns: repeat(auto-fill, minmax(100px, 330px));
+
+  color: #fff;
+
+  justify-content: center;
+
+  justify-items: center;
+
+  row-gap: 50px;
+
+  padding:0px;
+
+  padding-top: 50px;
+
+}
+
+
+
+#Footer .FooterBox_title {
+
+  font-weight: bold;
+
+  text-align: start;
+
+  margin-bottom: 0;
+
+}
+
+
+
+#Footer ul {
+
+  list-style: none;
+
+  font-weight: 400;
+
+  padding: 0;
+
+  margin: 20px 0;
+
+}
+
+
+
+#Footer li {
+
+  margin-bottom: 5px;
+
+}
+
+
+
+#Footer a {
+
+  color: #ffffff;
+
+  text-decoration: none;
+
+  font-weight: 500;
+
+  font-family: sans-serif;
+
+}
+
+
+
+#Footer .bi {
+
+  font-size: 24px;
+
+  margin-right: 10px;
+
+}
+
+
+
+@media screen and (min-width: 0) {
+
+  #Header .BarIcons .bi {
+
+    font-size: 24px;
+
+  }
+
+
+
+  .MainTitle {
+
+    font-size: 30px;
+
+  }
+
+
+
+  #HomeBoxSearch .accordion {
+
+    padding: 20px;
+
+    margin: 0 20px;
+
+  }
+
+  #HomeBoxSearch .AccordionHeaders {
+
+    flex-direction: column;
+
+  }
+
+  #HomeBoxSearch .accordion-button {
+
+    font-size: 20px;
+
+    text-align: center;
+
+  }
+
+  #HomeBoxSearch .accordion-button {
+
+    font-size: 16px;
+
+  }
+
+
+
+  #HomeBoxSearch .HomeBoxSearchForm {
+
+    flex-direction: column;
+
+  }
+
+  #HomeBoxSearch .HomeBoxSearchForm_input {
+
+    width: 100%;
+
+  }
+
+  #HomeBoxSearch .HomeBoxSearchForm_btn {
+
+    width: 100%;
+
+  }
+
+  #HomeBoxSearch .HomeBoxSearchForm_input {
+
+    font-size: 14px;
+
+    padding-left: 10px;
+
+  }
+
+
+
+  #HomeBoxSearch .HomeBoxSearchForm_btn {
+
+    font-size: 16px;
+
+  }
+
+  #SearchByBrand .SearchByBrandCarousel {
+
+    padding: 0 10px;
+
+  }
+
+  #BannerPromo .owl-next {
+
+    position: absolute;
+
+    right: 0;
+
+    top: 50%;
+
+    transform: translateY(-50%);
+
+  }
+
+
+
+  #BannerPromo .owl-prev {
+
+    position: absolute;
+
+    left: 0;
+
+    top: 50%;
+
+    transform: translateY(-50%);
+
+  }
+
+}
+
+
+
+@media screen and (min-width: 400px) {
+
+  .MainTitle {
+
+    font-size: 35px;
+
+  }
+
+  #Header .BarIcons_field-text {
+
+    font-size: 16px;
+
+  }
+
+  #HomeBoxSearch .HomeBoxSearchForm_input {
+
+    font-size: 16px;
+
+    padding-left: 15px;
+
+  }
+
+  #HomeBoxSearch .HomeBoxSearchForm {
+
+    padding: 20px 20px;
+
+  }
+
+
+
+  #HomeBoxSearch .HomeBoxSearchForm_btn {
+
+    font-size: 16px;
+
+  }
+
+}
+
+
+
+@media screen and (min-width: 576px) {
+
+  #Header .BarIcons .bi {
+
+    font-size: 28px;
+
+  }
+
+  .MainTitle {
+
+    font-size: 40px;
+
+  }
+
+  #HomeBoxSearch .accordion-button {
+
+    font-size: 20px;
+
+  }
+
+  #HomeBoxSearch .HomeBoxSearchForm_input {
+
+    font-size: 18px;
+
+    padding-left: 15px;
+
+  }
+
+
+
+  #HomeBoxSearch .HomeBoxSearchForm {
+
+    padding: 20px 30px;
+
+  }
+
+
+
+  #HomeBoxSearch .HomeBoxSearchForm_btn {
+
+    font-size: 18px;
+
+  }
+
+}
+
+
+
+@media screen and (min-width: 768px) {
+
+  #Header .BarIcons .bi {
+
+    font-size: 30px;
+
+  }
+
+  #HomeBoxSearch .accordion {
+
+    padding: 30px;
+
+  }
+
+  #HomeBoxSearch .accordion {
+
+    margin: 0 50px;
+
+  }
+
+  #HomeBoxSearch .AccordionHeaders {
+
+    flex-direction: row;
+
+  }
+
+  #HomeBoxSearch .accordion-button {
+
+    font-size: 16px;
+
+  }
+
+  #HomeBoxSearch .HomeBoxSearchForm {
+
+    flex-direction: row;
+
+    padding: 20px 0;
+
+  }
+
+
+
+  #HomeBoxSearch .HomeBoxSearchForm_input {
+
+    width: 60%;
+
+    font-size: 16px;
+
+  }
+
+  #HomeBoxSearch .HomeBoxSearchForm_btn {
+
+    width: 40%;
+
+    font-size: 16px;
+
+  }
+
+  #HomeBoxSearch .MainTitle {
+
+    font-size: 40px;
+
+  }
+
+  #SearchByBrand .SearchByBrandCarousel {
+
+    padding: 0 50px;
+
+  }
+
+  #BannerPromo .owl-next {
+
+    position: absolute;
+
+    right: -40px;
+
+    top: 50%;
+
+    transform: translateY(-50%);
+
+  }
+
+
+
+  #BannerPromo .owl-prev {
+
+    position: absolute;
+
+    left: -40px;
+
+    top: 50%;
+
+    transform: translateY(-50%);
+
+  }
+
+}
+
+
+
+@media screen and (min-width: 992px) {
+
+  .MainTitle {
+
+    font-size: 50px;
+
+  }
+
+  #Header .MainHeader {
+
+    gap: 100px;
+
+  }
+
+  #Header .MainHeaderNav_menu {
+
+    display: none;
+
+  }
+
+  #Header .MainHeaderNav_item {
+
+    font-size: 16px;
+
+    text-align: center;
+
+  }
+
+
+
+  #HomeBoxSearch .HomeBoxSearchForm_input {
+
+    width: 70%;
+
+    font-size: 18px;
+
+  }
+
+  #HomeBoxSearch .HomeBoxSearchForm_btn {
+
+    width: 30%;
+
+    font-size: 18px;
+
+  }
+
+
+
+  #HomeBoxSearch .accordion-button {
+
+    font-size: 18px;
+
+  }
+
+  #SearchByBrand .SearchByBrandCarousel {
+
+    padding: 0 70px;
+
+  }
+
+}
+
+
+
+@media screen and (min-width: 1280px) {
+
+  #Header .MainHeaderNav {
+
+    gap: 30px;
+
+  }
+
+  #HomeBoxSearch .HomeBoxSearchForm {
+
+    padding: 20px 50px;
+
+  }
+
+}
+
+
+
+@media screen and (min-width: 1400px) {
+
+  #Header .MainHeaderNav_item {
+
+    font-size: 18px;
+
+  }
+
+  #HomeBoxSearch .accordion-button {
+
+    font-size: 20px;
+
+  }
+
+  #HomeBoxSearch .accordion {
+
+    margin: 0 100px;
+
+  }
+
+}
+
+
+
+@media screen and (min-width: 1600px) {
+
+  #HomeBoxSearch .HomeBoxSearchForm_input {
+
+    font-size: 20px;
+
+  }
+
+  #HomeBoxSearch .HomeBoxSearchForm_btn {
+
+    font-size: 20px;
+
+  }
+
+}
+
+
+
+@media screen and (max-width: 300px) {
+
+  #Header .MainHeaderLogo img {
+
+    height: 80px;
+
+  }
+
+}
+
+
+
+@media screen and (max-width: 500px) {
+
+  #Header .BarIcons_field-text {
+
+    display: none;
+
+  }
+
+}
+
+
+
+@media screen and (max-width: 992px) {
+
+  #Header .MainHeaderNav_item {
+
+    display: none;
+
+  }
+
+}
+
+
+
+
+
+.display-none {
+
+  display: none;
+
+  transition: opacity 1s linear;
+
+}
+
+
+
+.btn-to-top .bi {
+
+  font-size: 30px;
+
+  position: fixed;
+
+  bottom: 20px;
+
+  right: 10px;
+
+  cursor: pointer;
+
+  background-color: #ffc82a;
+
+  border:0px solid #000;
+
+  color:#000;
+
+  border-radius: 5px;
+
+}
+
+
+
+
+
+.recuperar_senha a {
+
+    color: #666666;
+
+    text-decoration: none;
+
+}
+
+
+
+.fake {
+
+  width:100%;
+
+  background-color:#E9ECEF;
+
+  border:1px solid #DEE2E6;
+
+  border-radius:3px;
+
+  padding:6px;
+
+}
