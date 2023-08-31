@@ -10,7 +10,7 @@ function conecta(){
 
 	$conn_banco = "";
 
-	$conn_user = "t";
+	$conn_user = "";
 
 	$conn_senha = ""; 
 
