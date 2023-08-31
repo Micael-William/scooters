@@ -29,7 +29,8 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 - **[HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)**
 - **[CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)**
-- **[JAVASCRIPT](https://www.javascript.com/)**
+- **[PHP PURO](https://www.php.net/)**
+- **[MySql](https://www.mysql.com/)**
 
 ## 🦸 Autor
 
